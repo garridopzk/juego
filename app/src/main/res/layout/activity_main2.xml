@@ -31,7 +31,7 @@
         android:id="@+id/pregunta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="29dp"
         android:layout_marginTop="60dp"
         android:textColor="#ffffff"
         android:text="¿ Cuando es su cumpleaños de Duko ?"/>
@@ -40,7 +40,7 @@
         android:id="@+id/respuesta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="30dp"
         android:hint="Escribe tu respuesta aqui"
         android:textColor="#ffffff"
         android:textColorHint="@color/white"
@@ -49,7 +49,7 @@
         android:id="@+id/r1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="130dp"
         android:textColor="@color/white"/>
     <Button
@@ -82,7 +82,7 @@
         android:id="@+id/r2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="270dp"
         android:textColor="@color/white"/>
     <TextView
@@ -106,7 +106,7 @@
         android:id="@+id/r3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="395dp"
         android:textColor="@color/white"/>
 
