@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="-9dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/duki"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingContraints"/>
+
+    <TextView
+        android:id="@+id/adivinalapalabra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adivina la palabra:"
+        android:textSize="24sp"
+        android:textColor="#000011"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/pregunta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#000011"
+        android:text="¿ Cuando es su cumpleaños de Duko ?"/>
+
+    <EditText
+        android:id="@+id/escribir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:hint="Escribe tu respuesta aqui"
+        android:layout_marginTop="150dp"/>
+    <Button
+        android:id="@+id/comprobat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="450dp"
+        android:text="comprobar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="160dp"/>
+    <TextView
+        android:id="@+id/pregunta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="230dp"
+        android:textColor="#000011"
+        android:text="¿ Cual fue la primera cancion de Duko?"/>
+    <EditText
+        android:id="@+id/respuesta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:hint="Escribe tu respuesta aqui"/>
+    <TextView
+        android:id="@+id/pregunta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="320dp"
+        android:textColor="#000011"
+        android:text="¿ Genero que canta Duko?"/>
+    <EditText
+        android:id="@+id/respuesta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:hint="Escribe tu respuesta aqui"/>
+
+
+</RelativeLayout>
