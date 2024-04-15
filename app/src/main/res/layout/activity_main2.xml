@@ -22,17 +22,18 @@
         android:id="@+id/adivinalapalabra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Adivina la palabra:"
+        android:text="Que tanto conoces a Duki:"
         android:textSize="24sp"
         android:textColor="#F4F4F6"
-        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="70dp"
         android:layout_marginBottom="16dp"/>
     <TextView
         android:id="@+id/pregunta1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="29dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="165dp"
         android:textColor="#ffffff"
         android:text="¿ Cuando es su cumpleaños de Duko ?"/>
 
@@ -44,20 +45,21 @@
         android:hint="Escribe tu respuesta aqui"
         android:textColor="#ffffff"
         android:textColorHint="@color/white"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="190dp"/>
     <TextView
         android:id="@+id/r1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="130dp"
-        android:textColor="@color/white"/>
+        android:layout_marginTop="230dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_orange_light"/>
     <Button
         android:id="@+id/comprobat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="600dp"
         android:text="comprobar"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="160dp"/>
@@ -66,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="290dp"
         android:textColor="#F9F9FB"
         android:text="¿ Cual fue la primera cancion de Duko?"/>
     <EditText
@@ -74,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="309dp"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:hint="Escribe tu respuesta aqui"/>
@@ -83,14 +85,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="270dp"
-        android:textColor="@color/white"/>
+        android:layout_marginTop="370dp"
+        android:textSize="20dp"
+        android:textColor="#FF9800"/>
     <TextView
         android:id="@+id/pregunta3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="430dp"
         android:textColor="#FCFCFF"
         android:text="¿ Genero que canta Duko?"/>
     <EditText
@@ -98,7 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="450dp"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:hint="Escribe tu respuesta aqui"/>
@@ -107,8 +110,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="395dp"
-        android:textColor="@color/white"/>
+        android:layout_marginTop="500dp"
+        android:textSize="20dp"
+        android:textColor="#FF9800"/>
 
 
 </RelativeLayout>
