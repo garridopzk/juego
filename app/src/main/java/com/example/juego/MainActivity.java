@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = editTextPassword.getText().toString();
 
                 if (user.equals("niki") && password.equals("garrido")) {
-                    Intent intent = new Intent(v.getContext(), MainActivity.class);
+                    Intent intent = new Intent(v.getContext(), MainActivity2.class);
                     startActivity(intent);
                 } else {
 
